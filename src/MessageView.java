@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface MessageView {
+public interface MessageView {
+    void displayMessage (String message);
 }

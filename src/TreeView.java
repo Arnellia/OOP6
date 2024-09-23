@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface TreeView {
+public interface TreeView extends MessageView, PersonView, InputView {
+    void setPresenter (TreePresenter presenter);
 }

@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface PersonView {
+public interface PersonView {
+    void displayPersons (List<Person> persons);
 }
